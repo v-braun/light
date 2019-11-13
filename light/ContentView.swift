@@ -19,7 +19,8 @@ struct ContentView: View {
                     .linear(duration: 0.5)
                 )
             
-            Circle()
+            ForEach((1...3), id: \.self){ (num : Int) in
+                Circle()
                 .frame(width: self.btnSize, height: self.btnSize)
                 .scaleEffect(self.pulse ? 3 : 0.0)
                 .opacity(self.pulse ? 0.1 : 0.4)
@@ -27,9 +28,10 @@ struct ContentView: View {
                 .animation(
                     Animation
                     .linear(duration: 3)
-                    .repeatForever(autoreverses: true)
-                        .delay(1.0)
+                    .repeatForever(autoreverses: false)
+                        .delay(1.0 * Double(num))
                 )
+            }
             
             Button(action: {
                 self.lightOn.toggle()
