@@ -1,9 +1,11 @@
 import SwiftUI
+import AVFoundation
 
 struct ContentView: View {
     @State var btnSize = CGFloat(130)
     @State var lightOn = false
     @State var pulse = false
+    let impactFeedback = UIImpactFeedbackGenerator()
     
     var body: some View {
         ZStack(alignment: .center){
@@ -35,6 +37,14 @@ struct ContentView: View {
             
             Button(action: {
                 self.lightOn.toggle()
+                
+                let cam = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .back)
+                
+                try? cam?.lockForConfiguration()
+                cam?.torchMode = self.lightOn ? .on : .off
+                cam?.unlockForConfiguration()
+                
+                self.impactFeedback.impactOccurred()
             }){
                 Text(self.lightOn ? "DARKNESS" : "LIGHT")
                     .frame(width: self.btnSize, height: self.btnSize)
