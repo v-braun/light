@@ -1,7 +1,7 @@
 # light
 > [APP 101](https://www.youtube.com/channel/UCyW1ENYIJ-66UtBNLyP7fIQ) - [iOS Flashlight app](https://youtu.be/Xfebl6AT3hE)
 
-By [v-braun - viktor-braun.de](https://viktor-braun.de).
+By [v-braun - viktor-braun.de](https://viktor-braun.de?ref=gh-light).
 
 [![](https://img.shields.io/github/license/v-braun/light.svg?style=flat-square)](https://github.com/v-braun/light/blob/master/LICENSE)
 [![Build Status](https://img.shields.io/travis/v-braun/light.svg?style=flat-square)](https://travis-ci.org/v-braun/light)
