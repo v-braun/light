@@ -33,7 +33,7 @@ I used the new SwitfUI framework for this app.
 Run the following command on your terminal:
 
 ```
-git clone https://github.com/v-braun/light
+git clone https://github.com/v-braun/light.git
 ```
 
 
