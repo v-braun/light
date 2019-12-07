@@ -1,5 +1,5 @@
 # light
-> APP 101 - iOS Flashlight app - https://youtu.be/Xfebl6AT3hE
+> APP 101 - iOS Flashlight app - [see on youtube](https://youtu.be/Xfebl6AT3hE)
 
 By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
