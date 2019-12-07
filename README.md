@@ -1,5 +1,5 @@
 # light
-> APP 101 - iOS Flashlight app
+> APP 101 - iOS Flashlight app - https://youtu.be/Xfebl6AT3hE
 
 By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
@@ -8,7 +8,9 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 ![PR welcome](https://img.shields.io/badge/PR-welcome-green.svg?style=flat-square)
 
 <p align="center">
+<a href="https://youtu.be/Xfebl6AT3hE">
 <img width="70%" src="https://raw.githubusercontent.com/v-braun/light/master/.github/vid-banner.png" />
+</a>
 </p>
 
 
