@@ -13,7 +13,7 @@ By [v-braun - viktor-braun.de](https://viktor-braun.de).
 
 
 ## Description
-This repository is the home 🏠 of *light*, a Flashlight iOS App built with SwiftUI. 
+This repository is the home 🏠 of **light**, a Flashlight iOS App built with SwiftUI. 
 
 Checkout the creation process at [youtube](https://youtu.be/Xfebl6AT3hE)
 
